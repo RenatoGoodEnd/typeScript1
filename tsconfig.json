@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", //pasta que os arquivos JS serão salvos
+        "target": "ES6", //versão de ECMAScript que será compilado
+        "noEmitOnError": true, //configura para não compilar se houver algum erro
+        "noImplicitAny": true
+    },
+    "include": ["app/**/*"] //especificação das pastas que será usado o TS
+}
