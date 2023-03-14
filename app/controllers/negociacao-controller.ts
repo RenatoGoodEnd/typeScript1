@@ -2,7 +2,7 @@ import { Negociacao } from '../models/negociacao.js';
 import { Negociacoes } from '../models/negociacoes.js';
 
 export class NegociacaoController {
-    private inputData: HTMLInputElement;
+    private inputData: HTMLInputElement; //private variável só pode ser acessada por método dentro da sua classe
     private inputQuantidade: HTMLInputElement;
     private inputValor: HTMLInputElement;
     private negociacoes = new Negociacoes();
