@@ -14,3 +14,24 @@ export class Negociacao {
         return data;
     }
 }
+
+/*Isso aqui:
+export class Fatura {
+
+    private data: Date;
+    private quantidade: number;
+    private valor: number;
+
+    constructor(data: Date, quantidade: number, valor: number) {
+            this.data = data;
+            this.quantidade = quantidade;
+            this.valor = valor;
+    }
+}
+
+Pode ser simplifica para isso:
+    constructor(
+        private _data: Date, 
+        private readonly quantidade: number, 
+        private readonly valor: number
+    ) {}
