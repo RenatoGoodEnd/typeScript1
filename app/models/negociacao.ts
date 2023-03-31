@@ -34,4 +34,4 @@ Pode ser simplifica para isso:
         private _data: Date, 
         private readonly quantidade: number, 
         private readonly valor: number
-    ) {}
+    ) {}*/

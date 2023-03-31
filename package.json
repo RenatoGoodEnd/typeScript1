@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "lite-server --baseDir=dist",//comando para rodar a página que está em desenvolvimento
-    "start": "concurrently \"npm run watch\" \"npm run server\"",//executa o server e o watch juntos, sempre q salvar uma alteração ele compila e atualiza a página do projeto
+    "server": "lite-server --baseDir=dist",   /*comando para rodar a página que está em desenvolvimento*/
+    "start": "concurrently \"npm run watch\" \"npm run server\"", //executa o server e o watch juntos, sempre q salvar uma alteração ele compila e atualiza a página do projeto
     "compile": "tsc", //comando para compilar o programa em TS, para executar npm run compile
     "watch": "tsc -w"//comando que deixa o VScode em alerta, cada vez q salvar uma modificação ele faz a compilação sozinho
                     //para ativar deve executar npm run watch
